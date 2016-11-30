@@ -1,0 +1,55 @@
+
+
+ set padding for iOS7 status bar 
+.ua-ios-7 .ui-page, .ua-ios-8, .ui-page {
+    padding-top: 63px !important;
+}
+
+.ua-ios-7 .ui-header, .ua-ios-8 .ui-header {
+    top: 20px;
+}
+
+
+/*bodyの書式は別のスタイルシートで規定されている。*/
+/*@import url("monaca-jquery-mobile/css/jquery.mobile.css");*/
+body {
+    background-color: black;
+    color: black;
+    padding: 0;
+    margin: 0;
+    background-image: url(images/bg.png);
+    height: 100%;
+}
+
+#wrapper {
+    position: relative;
+    top:580PX;
+    left:30%;
+    width:200px;
+    box-shadow: 0px 0px 20px #000 inset;
+}
+#container {
+    position: absolute;
+    margin-top: -105px;
+    padding-left : 0;
+    padding-right : 0;
+    display : block;
+    top: 60%;
+    text-align: center;
+}
+#container img {
+    display: block;
+    float: left;
+    width: 15%;
+}
+#container img.colon{
+    width: 10px;
+}
+#date {
+    color: #10efef;
+    float : left;
+    font-size: 13pt;
+    opacity: 0.5;
+    text-align: left;
+    font-family: 'Helvetica';
+}
